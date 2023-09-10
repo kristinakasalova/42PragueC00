@@ -1,24 +1,14 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: coder <coder@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/15 16:30:33 by kkasalov          #+#    #+#             */
-/*   Updated: 2022/02/15 21:37:48 by coder            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+//:header
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
+void ft_putchar(char c) {
+    write(1, &c, 1);
 }
 
-int	main(void)
-{
-	ft_putchar('c');
-	return (0);
+
+int main(void) {
+    ft_putchar('c');
+    return 0;
 }
+
